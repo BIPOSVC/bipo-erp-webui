@@ -1,0 +1,5 @@
+/* 复用共享 UI 包的 Tailwind 主题(含 @import 'tailwindcss' 与主题变量) */
+@import '@workspace/ui/globals.css';
+
+/* 扫描本应用自身的类名(路径相对本文件:apps/web/src) */
+@source './**/*.{ts,tsx}';

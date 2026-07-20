@@ -10,6 +10,12 @@ export default defineConfig({
     alias: {
       '@': path.resolve(import.meta.dirname, './src'),
     },
+    // 确保 monorepo 下 React 单实例
+    dedupe: ['react', 'react-dom'],
+  },
+  // @workspace/ui 是源码型 workspace 包,交给 Vite 直接编译而非预打包
+  optimizeDeps: {
+    exclude: ['@workspace/ui'],
   },
   server: {
     port: 5173,

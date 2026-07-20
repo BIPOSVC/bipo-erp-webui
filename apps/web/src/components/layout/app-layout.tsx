@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from 'react-router-dom'
 import { LayoutDashboard, Users } from 'lucide-react'
-import { cn } from '@/lib/utils'
+import { cn } from '@workspace/ui/lib/utils'
 
 const nav = [
   { to: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },

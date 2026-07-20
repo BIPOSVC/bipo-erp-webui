@@ -1,5 +1,8 @@
 @import 'tailwindcss';
 
+/* 扫描本 UI 包内所有组件的类名(路径相对本文件:packages/ui/src) */
+@source '../**/*.{ts,tsx}';
+
 @custom-variant dark (&:is(.dark *));
 
 :root {

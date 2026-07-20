@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardContent, CardHeader, CardTitle } from '@workspace/ui/components/card'
 import { UserCreateForm } from '@/features/users/user-create-form'
 import { UsersList } from '@/features/users/users-list'
 

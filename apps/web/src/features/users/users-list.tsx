@@ -1,5 +1,5 @@
 import { type ColumnDef } from '@tanstack/react-table'
-import { DataTable } from '@/components/data-table'
+import { DataTable } from '@workspace/ui/components/data-table'
 import { useUsers } from './api'
 import type { User } from './types'
 

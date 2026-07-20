@@ -2,6 +2,9 @@
 node_modules
 .pnpm-store
 
+# turbo
+.turbo
+
 # build output
 dist
 dist-ssr
@@ -12,7 +15,7 @@ playwright-report
 test-results
 
 # api codegen (generated from backend OpenAPI)
-src/api/generated
+**/src/api/generated
 
 # env
 .env

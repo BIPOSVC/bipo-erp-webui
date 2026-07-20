@@ -1,6 +1,6 @@
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
-import { Button } from '@/components/ui/button'
+import { Button } from '@workspace/ui/components/button'
 import {
   Form,
   FormControl,
@@ -8,8 +8,8 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from '@/components/ui/form'
-import { Input } from '@/components/ui/input'
+} from '@workspace/ui/components/form'
+import { Input } from '@workspace/ui/components/input'
 import { useCreateUser } from './api'
 import { createUserSchema, type CreateUserInput } from './types'
 
